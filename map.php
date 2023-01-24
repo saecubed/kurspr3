@@ -7,9 +7,9 @@
     <h1 class="display-3 text-center top_text">Карта ветеринарных клиник</h1>
     <h1 class="display-5 text-center">Найдите удобную для Вас</h1>
     
-        <a class="btn text-light" href="map.php" role="button"  style="background-color:#13085b">Все клиники</a>
-        <a class="btn text-light" href="mapEveryDay.php" role="button"  style="background-color:#13085b">Клиники, работающие каждый день</a>
-        <a class="btn text-light" href="mapEveryHour.php" role="button"  style="background-color:#13085b">Клиники, работающие круглосуточно</a>
+        <a class="btn text-light map-button" href="map.php" role="button"  style="background-color:#13085b">Все клиники</a>
+        <a class="btn text-light map-button" href="mapEveryDay.php" role="button"  style="background-color:#13085b">Клиники, работающие каждый день</a>
+        <a class="btn text-light map-button" href="mapEveryHour.php" role="button"  style="background-color:#13085b">Клиники, работающие круглосуточно</a>
     
 
     <div class="row"> 
