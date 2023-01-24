@@ -15,12 +15,12 @@
 
     function doesItExist(array $arr) {
         $data = array(
-            'FullName' => $arr['FullName'] != false ? $arr['FullName'] : 'Нет данных'
+            'FullName' => $arr['FullName'] != false ? $arr['FullName'] : 'Ничего не найдено'
         );
         return $data; 
     }        
         
-    function countParks($result) { 
+    function echores($result) { 
         if ($result -> num_rows > 0) {
             while ($row = $result -> fetch_assoc()) {
                 $arr = doesItExist($row);
@@ -38,7 +38,7 @@
 
 <div class="res">
     <?php
-        countParks($result);
+        echores($result);
     ?>
 </div>
 
