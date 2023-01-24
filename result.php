@@ -3,6 +3,8 @@
     require "header.php";
 ?>
 
+<h1 class="display-5 text-center top_text">Результат поиска</h1>
+
 <?php
     $connect = mysqli_connect("std-mysql", "std_1987_kurspr3", "12345678", "std_1987_kurspr3");
 
@@ -16,8 +18,7 @@
             'FullName' => $arr['FullName'] != false ? $arr['FullName'] : 'Нет данных'
         );
         return $data; 
-    }
-        
+    }        
         
     function countParks($result) { 
         if ($result -> num_rows > 0) {
