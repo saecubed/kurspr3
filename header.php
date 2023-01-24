@@ -21,8 +21,11 @@
                         <li class="nav-item">
                         <a class="nav-link text-light" href="index.php">
                         <img src="logo.svg" height="30" class="d-inline-block align-top" alt="">
-                            Главная
+                            НайдиВет
                         </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-light" href="map.php">Карта</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link text-light" href="map.php">Карта</a>
