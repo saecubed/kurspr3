@@ -25,7 +25,7 @@
                         </a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-light" href="map.php">Главная</a>
+                        <a class="nav-link text-light" href="index.php">Главная</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link text-light" href="map.php">Карта</a>
