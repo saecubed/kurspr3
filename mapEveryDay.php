@@ -10,6 +10,7 @@
     <a class="btn text-light map-button" href="map.php" role="button"  style="background-color:#13085b">Все клиники</a>
     <a class="btn text-light map-button" href="mapEveryDay.php" role="button"  style="background-color:#13085b">Клиники, работающие каждый день</a>
     <a class="btn text-light map-button" href="mapEveryHour.php" role="button"  style="background-color:#13085b">Клиники, работающие круглосуточно</a>
+    <a class="btn text-light map-button" href="mapNeotl.php" role="button"  style="background-color:#13085b">Неотложные клиники</a>
 
     <div class="row"> 
         <div class="col-lg-11 mb-7">

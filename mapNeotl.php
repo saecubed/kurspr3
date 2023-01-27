@@ -18,7 +18,7 @@
     <div class="row"> 
         <div class="col-lg-11 mb-7">
             <div class="map">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1cbd45d37a69708b18a266c79bda063f0145d68f00360deda508a9f5a7a2a2df&amp;width=1000&amp;height=453&amp;lang=ru_RU&amp;scroll=true"></script>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5800d29031dc2abce0b20fb5a22d3eed9eb11e3fbbe43c04b23792bf386f4e6c&amp;width=1000&amp;height=453&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
         </div>
     </div>

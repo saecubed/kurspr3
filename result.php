@@ -10,7 +10,7 @@
 
     $inputSearch = $_REQUEST['search']; 
     
-    $sql = "SELECT FullName, Services, Address, PublicPhone FROM `vetclinics` WHERE `FullName` LIKE '%$inputSearch%' OR `Address` LIKE '%$inputSearch%'  OR `Services` LIKE '%$inputSearch%'";
+    $sql = "SELECT FullName, Services, Address, WorkingHours, PublicPhone FROM `vetclinics` WHERE `FullName` LIKE '%$inputSearch%' OR `Address` LIKE '%$inputSearch%'  OR `Services` LIKE '%$inputSearch%'";
      $result = $connect -> query($sql);
 
     function doesItExist(array $arr) {
@@ -27,6 +27,7 @@
                 echo "Название: ". $row['FullName'] ."<br>
                     Услуги: ". $row['Services'] ."<br>
                     Адрес: ". $row['Address'] ."<br>
+                    ". $row['WorkingHours'] ."<br>
                     ". $row['PublicPhone'] ."<hr>";
             }
         } 
