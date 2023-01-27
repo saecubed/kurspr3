@@ -13,9 +13,9 @@
     $sql = "SELECT FullName, Services, Address, WorkingHours, PublicPhone FROM `vetclinics` WHERE `FullName` LIKE '%$inputSearch%' OR `Address` LIKE '%$inputSearch%'  OR `Services` LIKE '%$inputSearch%'";
      $result = $connect -> query($sql);
 
-    function doesItExist(array $arr) {
+    function getData(array $arr) {
         $data = array(
-            'FullName' => $arr['FullName'] != false ? $arr['FullName'] : 'Ничего не найдено'
+            'data' => $arr['data']
         );
         return $data; 
     }        
@@ -23,7 +23,7 @@
     function echoRes($result) { 
         if ($result -> num_rows > 0) {
             while ($row = $result -> fetch_assoc()) {
-                $arr = doesItExist($row);
+                $arr = getData($row);
                 echo "Название: ". $row['FullName'] ."<br>
                     Услуги: ". $row['Services'] ."<br>
                     Адрес: ". $row['Address'] ."<br>
@@ -43,7 +43,7 @@
     ?>
 </div>
 
-
+<h1 class="top_text"></h1>  
 
 <?php
     require "footer.php";
